@@ -21,6 +21,17 @@ header div nav ul a li {
   list-style: none;
   font-size: 1.2em;
 }
+header div .nav-link {
+  text-decoration: none;
+}
+header div .nav-link .login-nav-btn {
+  justify-content: space-between;
+  font-size: 1em;
+}
+header div .nav-link .login-nav-btn svg {
+  width: 18px;
+  height: 18px;
+}
 
 @media screen and (min-width: 992px) {
   header {

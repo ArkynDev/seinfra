@@ -27,6 +27,20 @@ header {
                 }
             }
         }
+
+        .nav-link {
+            text-decoration: none;
+
+            .login-nav-btn {
+                justify-content: space-between;
+                font-size: 1em;
+
+                svg {
+                    width: 18px;
+                    height: 18px;
+                }
+            }
+        }
     }
 }
 

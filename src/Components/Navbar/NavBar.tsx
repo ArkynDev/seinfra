@@ -15,7 +15,15 @@ export const NavBar = () => {
                         <Link to="/"><li>Inicio</li></Link>
                     </ul>
                 </nav>
-                <Link to="LoginPage"><Button children={`Entrar <LogIn />`} primary /></Link>
+                <Link className="nav-link" to="LoginPage">
+                    <Button 
+                        aditionalStyle="login-nav-btn" 
+                        children="Entrar"
+                        type="button"
+                        icon={<LogIn />} 
+                        primary 
+                    />
+                </Link>
             </div>
         </header>
     )
