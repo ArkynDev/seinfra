@@ -1,0 +1,31 @@
+header {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 70px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+header div {
+  display: flex;
+  align-items: center;
+  gap: 64px;
+}
+header div nav ul a {
+  text-decoration: none;
+  color: black;
+}
+header div nav ul a li {
+  list-style: none;
+  font-size: 1.2em;
+}
+
+@media screen and (min-width: 992px) {
+  header {
+    padding: 8px 38px;
+  }
+}
+
+/*# sourceMappingURL=NavBar.css.map */
